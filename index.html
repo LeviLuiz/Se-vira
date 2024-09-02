@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se vira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Se vira para aprender</h1>
+        <div class="button">
+            <button class="tap-button" onclick="openTab('Sevira1')">Se vira botão 1</button>
+            <button class="tap-button" onclick="openTab('Sevira2')">Se vira botão 2</button>
+            <button class="tap-button" onclick="openTab('Sevira3')">Se vira botão 3</button>
+        </div>
+        <div class="in-container">
+            <div id="Sevira1" class="tab-content" style="display: none;">
+                <h2>
+                    Se vira para aprender texto Sevira1
+                </h2>
+                <p>Começando a entender o HTML e o CSS</p>
+            </div>
+            <div id="Sevira2" class="tab-content" style="display: none;">
+                <h2>Se vira texto aprender texto 2 Sevira2</h2>
+                <p>Consegui resolver o bug da linha 60 do CSS</p>
+            </div>
+            <div id="Sevira3" class="tab-content" style="display: none;">
+                <h2>Aprender e se virar Sevira3 texto 3</h2>
+                <p>Para resolver o bug eu coloquei o body com a cor cinza e o * com o branco. Assim não fica mais bugado o margin</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
