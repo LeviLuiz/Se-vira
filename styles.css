@@ -24,12 +24,14 @@ body {
     margin-bottom: 50px;
     background-color: inherit;
     text-align: center;
+    border-radius: 50px;
+    border: 1px solid red;
 }
 
 .tap-button {
     background-color: rgb(27, 80, 255);
     padding: 11px 20px;
-    color: rgb(212, 212, 212);
+    color: rgb(224, 224, 224);
     margin-right: 12px;
     border-radius: 50px;
     border: none;
